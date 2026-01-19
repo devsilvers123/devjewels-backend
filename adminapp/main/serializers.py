@@ -8,7 +8,7 @@ class AnnouncementSerializer(serializers.ModelSerializer):
 
 class BannerSerializer(serializers.ModelSerializer):
     image_url = serializers.SerializerMethodField()
-
+#comment
     class Meta:
         model = Banner
         fields = ['id', 'heading', 'sub_heading', 'image_url', 'order']
